@@ -1,0 +1,41 @@
+{
+   "lambdatest_auth": {
+      "username": "mukeshotwani.50",
+      "access_key": "po9WNsa4fyaDoDaO78fMXMiWr6wlnoXZZllgq3frmg2eJzeVz4"
+   },
+   "browsers": 
+   [
+      {
+        "browser": "Chrome",
+        "versions": ["118.0"],
+        "platform": "macOS Mojave"
+      },
+      {
+        "browser": "Webkit",
+        "versions": ["latest"],
+        "platform": "macOS Mojave"
+      },
+      {
+        "browser": "Electron",
+        "versions": ["latest"],
+        "platform": "macOS Big sur"
+      }
+      
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress Build New",
+      "parallels": 5,
+      "specs": "cypress/e2e/sampletest/*.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "13.3.3"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}

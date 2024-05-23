@@ -1,5 +1,5 @@
 
-# Web Automation With Selenium On Cloud
+# Web Automation With Cypress On Cloud
 
 Execute your cypress automated test across 3000 + browsers, devices and platform.
 
